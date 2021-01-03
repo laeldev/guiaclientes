@@ -5,17 +5,23 @@
 
     <Cliente/>
 
+    <hr>
+    <h4> Lista de Produto</h4>
+    <hr>
+    <Produto/>
   </div>
 </template>
 
 <script>
-import Cliente from './components/Cliente'
+import Cliente from './components/Cliente';
+import Produto from './components/Produto';
 
 
 export default {
   name: 'App',
   components:{
-    Cliente
+    Cliente,
+    Produto
   }
 }
 </script>
